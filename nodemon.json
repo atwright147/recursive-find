@@ -1,0 +1,10 @@
+{
+  "events": {
+    "restart": "clear",
+    "start": "clear"
+  },
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node ./src/index.ts"
+}
